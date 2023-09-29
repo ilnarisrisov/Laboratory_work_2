@@ -1,0 +1,12 @@
+print ("Впишите имя: ")
+name = input()
+print ("Впишите возраст: ")
+age = int(input())
+print ("Впишите место проживания: ")
+place_of_living = input()
+print ("Впишите страну проживания: ")
+country_of_living = input()
+year_of_burning = 2023 - age
+print ('"Уважаемый '+ name +'!')
+print ('На сегодняшний день Вы проживаете в стране ' + country_of_living +', в городе')
+print (place_of_living +', и вы родились в ' + str(year_of_burning) +'".')
